@@ -12,5 +12,15 @@ public class Human {
         this.stealth = 3;
         this.strength = 3;
     }
-    
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+    public void attack(Human h){
+        h.health -= this.strength;
+    }
 }
