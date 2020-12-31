@@ -5,8 +5,9 @@ public class HumanTester {
         Human shatha = new Human();
         Human tareq = new Human();
         shatha.attack(tareq);
+        shatha.attack(tareq);
         System.out.println(tareq.getHealth());
-        System.out.println(tareq.getHealth());
+
 
     }
 }
