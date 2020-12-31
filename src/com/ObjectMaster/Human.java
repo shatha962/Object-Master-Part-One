@@ -17,10 +17,30 @@ public class Human {
         return health;
     }
 
+    public int getIntelligence() {
+        return intelligence;
+    }
+
+    public int getStealth() {
+        return stealth;
+    }
+
     public void setHealth(int health) {
         this.health = health;
+    }
+
+    public void setStealth(int stealth) {
+        this.stealth = stealth;
+    }
+
+    public void setIntelligence(int intelligence) {
+        this.intelligence = intelligence;
     }
     public void attack(Human h){
         h.health -= this.strength;
     }
+
+
+
+
 }
