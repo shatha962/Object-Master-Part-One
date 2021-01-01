@@ -2,6 +2,7 @@ package com.ObjectMaster;
 
 public class Samurai extends Human{
     public int count = 0;
+    private static int s = 0;
         public Samurai(){
             this.setHealth(200);
             count += 1;
@@ -14,6 +15,11 @@ public class Samurai extends Human{
             this.setHealth(this.getHealth() + this.getHealth()/2);
         }
         public int howMany(){
-            return count;
+            return this.count;
         }
+
+
+
+
+        
 }

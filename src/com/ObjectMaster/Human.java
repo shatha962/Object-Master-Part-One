@@ -39,8 +39,4 @@ public class Human {
     public void attack(Human h){
         h.health -= this.strength;
     }
-
-
-
-
 }
